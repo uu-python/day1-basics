@@ -1,4 +1,4 @@
-# Exercises: Basics
+# Exercises for Day 1
 An introduction to the UNIX shell, interactive Python and git repositories
 
 ## 1. Basic shell commands
