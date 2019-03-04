@@ -39,13 +39,25 @@ Now, some git tasks for you
 #### a. Configure your local git environment
 This becomes important as you start contributing to shared repositories (your code changes can be associated with your user account). 
 Follow the instructions on the *Setting up git* slide (28) from this morning.
-#### b. Clone a repo, create your own file and push it to a remote repository
+#### b. On GitHub fork [https://github.com/uu-python/participants](https://github.com/uu-python/participants), and clone it.
+If you need help check [https://help.github.com/en/articles/fork-a-repo](https://help.github.com/en/articles/fork-a-repo).
+#### c. Create your own file and push it to a remote repository
 Follow the instructions on the *Getting familiar with basic commands* slide (30) from this morning and use a unique filename.
-#### c. Create a branch, change a file and merge your changes back into the master branch. 
+#### d. Create a branch, change a file and merge your changes back into the master branch. 
 Follow the instructions on the *Contribute to a collaborative project*  slide (35) from this morning. Be aware that there might be conflicts when two people edit the same section of the same file. In such a case, try to solve the conflict by editing the file and commiting the file again (with the conflicts solved).
-#### d. Go through the lifecycle of the status of files
-Have a look at the slide *The lifecycle of the status of your files* and create scenarios where you go from **Untracked**->**Staged**->**Unmodified**->**Untracked** and **Untracked**->**Staged**->**Unmodified**->**Modified**->**Staged**->**Unmodified**. Use the command ```git status``` in between the steps to monitor how the status of your file is changing. 
-#### e. If you cannot get enough of git commands:
+#### e. Go to GitHub and create a pull request to have your changes incorporated in the *official* parent repository.
+You can read more about pull requests here [https://help.github.com/en/articles/about-pull-requests](https://help.github.com/en/articles/about-pull-requests) and [https://help.github.com/en/articles/creating-a-pull-request-from-a-fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
+#### f. Go through the lifecycle of the status of files
+Have a look at the slide *The lifecycle of the status of your files* and create scenarios where you go from **Untracked**->**Staged**->**Unmodified**->**Untracked** and **Untracked**->**Staged**->**Unmodified**->**Modified**->**Staged**->**Unmodified**. Use the command ```git status``` in between the steps to monitor how the status of your file is changing.
+#### g. Exercise remotes
+- Create a github project.
+- Add the url of the project as a remote called `my_repository`.
+- Push your changes to github: `git push my_repository master`
+- Check on github that you have indeed pushed your changes.
+- Now add https://github.com/uu-python/participants.git as a new remote called `parent` and fetch any changes from it.
+- Merge the changes from `parent/master` to your local master branch (there may be a conflict - if so, resolve it).
+- Push the new changes to your remote called `my_repository`.
+#### h. If you cannot get enough of git commands:
 checkout this tutorial/game: [https://github.com/Gazler/githug](https://github.com/Gazler/githug)
 
 ## 3. Interactive Python
