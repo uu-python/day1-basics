@@ -41,7 +41,7 @@ This becomes important as you start contributing to shared repositories (your co
 Follow the instructions on the *Setting up git* slide (28) from this morning.
 #### b. On GitHub fork [https://github.com/uu-python/participants](https://github.com/uu-python/participants), and clone it.
 If you need help check [https://help.github.com/en/articles/fork-a-repo](https://help.github.com/en/articles/fork-a-repo).
-#### c. Create your own file and push it to a remote repository
+#### c. Create your own file and push it to the repository you just forked
 Follow the instructions on the *Getting familiar with basic commands* slide (30) from this morning and use a unique filename.
 #### d. Create a branch, change a file and merge your changes back into the master branch. 
 Follow the instructions on the *Contribute to a collaborative project*  slide (35) from this morning. Be aware that there might be conflicts when two people edit the same section of the same file. In such a case, try to solve the conflict by editing the file and commiting the file again (with the conflicts solved).
