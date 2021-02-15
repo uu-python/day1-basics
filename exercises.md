@@ -54,7 +54,7 @@ Have a look at the slide *The lifecycle of the status of your files* and create 
 - Add the url of the project as a remote called `my_repository`.
 - Push your changes to github: `git push my_repository master`
 - Check on github that you have indeed pushed your changes.
-- Now add https://github.com/uu-python/participants.git as a new remote called `parent` and fetch any changes from it.
+- Now add https://github.com/uu-python/participants.git as a new remote called `parent` and fetch any changes from it (you'll likely need to add `--allow-unrelated-histories` when pulling/merging).
 - Merge the changes from `parent/master` to your local master branch (there may be a conflict - if so, resolve it).
 - Push the new changes to your remote called `my_repository`.
 #### h. If you cannot get enough of git commands:
