@@ -66,7 +66,7 @@ Have a look at the slide *The lifecycle of the status of your files* and create 
 
 #### g. Exercise remotes
 - Create a github repository.
-- Add the url of the repository as a remote called `my_repository`.
+- To the cloned forked resitory you created in b., add the url of the new repository as a remote called `my_repository`.
 - Push your changes to github: `git push my_repository master`
 - Check on github that you have indeed pushed your changes.
 - Now add https://github.com/uu-python/participants.git as a new remote called `parent` and fetch any changes from it.
