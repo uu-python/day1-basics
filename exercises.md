@@ -53,10 +53,11 @@ If you need help check [https://help.github.com/en/articles/fork-a-repo](https:/
 Note that you should clone the repository that was created *after* the fork, not the original repository!
 
 #### c. Create your own file and push it to a remote repository
-Follow the instructions on the *Getting familiar with basic commands* slide (30) from this morning and use a unique filename.
+Using the clone of the forked repository, follow the instructions on the *Getting familiar with basic commands* slide (30) from this morning and use a unique filename.
 
 #### d. Create a branch, change a file and merge your changes back into the master branch. 
-Follow the instructions on the *Contribute to a collaborative project*  slide (35) from this morning. Be aware that there might be conflicts when two people edit the same section of the same file. In such a case, try to solve the conflict by editing the file and commiting the file again (with the conflicts solved).
+Still using the same forked repository create a branch, change a file and merge your changes back into the master branch.
+Some commands from the slide *Contribute to a collaborative project* shown this morning could be helpful.
 
 #### e. Go to GitHub and create a pull request to have your changes incorporated in the *official* parent repository.
 You can read more about pull requests here [https://help.github.com/en/articles/about-pull-requests](https://help.github.com/en/articles/about-pull-requests) and [https://help.github.com/en/articles/creating-a-pull-request-from-a-fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
