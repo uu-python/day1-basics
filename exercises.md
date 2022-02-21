@@ -1,18 +1,18 @@
-# Exercises for Day 1
+# Exercises: Basics
 An introduction to the UNIX shell, interactive Python and git repositories
 
 ## 1. Basic shell commands
-Get familiar with UNIX shell and some basic bash commands. Have a look at the slides from this morning and identify commands that are new to you. Test them out! Check out the command's man page (usually ```man COMMAND```). Here are a few tasks/commands you should definitely give a try:
+Get familiar with UNIX shell and some basic bash commands. Have a look at the slides from this morning and identify commands that are new to you. Test them out! Check out the command's man page (on macOS and Linux you can simply do ```man COMMAND```. If you're on Windows you can check the [online man pages](https://linux.die.net/man/). Also many commands have `--help` option which will display some documentation (e.g. `git --help`). Here are a few tasks/commands you should definitely give a try:
 
 #### a. Create a new local directory (e.g. `python-course`) 
 using the commands ```cd``` and ```mkdir```
 #### b. Create a new file inside this new local directory (e.g. `hello_world.py`) 
-using the command ```touch``` or editors like ```emacs```, ```vim```, ```nano``` or whatever you prefer
+using the command ```touch``` or editors like ```emacs```, ```vim```, ```nano```, `atom`, `notepad` or whatever you prefer
 #### c. Rename your file to something unique (e.g. `hello_world_benedikt.py`)
-using the command ```mv```
+using the command `mv`
 #### d. Make your simple python file print a statement (e.g. "Hello world") 
 using your favourite editor
-#### e. Execute your python script.
+#### e. Execute your python script (e.g. `python hello_world_benedikt.py`).
 #### f. Add the so called *shebang* to the first line of the python script: ```#!/usr/bin/env python```.
 #### g. Make your script executable (x permission) 
 using the command ```chmod```. You should now be able to execute your script like this: ```./hello_world_benedikt.py```
@@ -32,29 +32,47 @@ checkout this tutorial: [https://swcarpentry.github.io/shell-novice/](https://sw
 ## 2. Working with git
 In this part, we want you to get familiar with the most common *git* commands and learn how to use them. Some of the following tasks require you to have a *Github* account. So, if you don't already have one, you can create on here: [http://github.com/join](http://github.con/join). 
 
+> In order for you to be able to ```push``` your changes to one of our remote repositories (e.g. [https://github.com/uu-python/participants](https://github.com/uu-python/participants)), we need to add you as a collaborator to our *Github* origanization. Therefore, come to the front and write you *Github* username on the whiteboard...
+
 Now, some git tasks for you
 
 #### a. Configure your local git environment
-This becomes important as you start contributing to shared repositories (your code changes can be associated with your user account). 
-Follow the instructions on the *Setting up git* slide (28) from this morning.
+This becomes important as you start contributing to shared repositories (your code changes can be associated with your user account).
+We'll follow the instructions on the *Setting up git*.
+First the name and email (obviously replacing them with your information):
+
+	git config —-global user.name "Your Name"
+	git config —-global user.email "your.email@your.domain"
+
+And finally select the editor (e.g. `notepad`, `vi`, `emacs`, `nano`, etc...) to be used when writing log messages:
+
+	git config —-global core.editor nano
+
 #### b. On GitHub fork [https://github.com/uu-python/participants](https://github.com/uu-python/participants), and clone it.
 If you need help check [https://help.github.com/en/articles/fork-a-repo](https://help.github.com/en/articles/fork-a-repo).
-#### c. Create your own file and push it to the repository you just forked
+Note that you should clone the repository that was created *after* the fork, not the original repository!
+
+#### c. Create your own file and push it to a remote repository
 Follow the instructions on the *Getting familiar with basic commands* slide (30) from this morning and use a unique filename.
+
 #### d. Create a branch, change a file and merge your changes back into the master branch. 
 Follow the instructions on the *Contribute to a collaborative project*  slide (35) from this morning. Be aware that there might be conflicts when two people edit the same section of the same file. In such a case, try to solve the conflict by editing the file and commiting the file again (with the conflicts solved).
+
 #### e. Go to GitHub and create a pull request to have your changes incorporated in the *official* parent repository.
 You can read more about pull requests here [https://help.github.com/en/articles/about-pull-requests](https://help.github.com/en/articles/about-pull-requests) and [https://help.github.com/en/articles/creating-a-pull-request-from-a-fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
+
 #### f. Go through the lifecycle of the status of files
 Have a look at the slide *The lifecycle of the status of your files* and create scenarios where you go from **Untracked**->**Staged**->**Unmodified**->**Untracked** and **Untracked**->**Staged**->**Unmodified**->**Modified**->**Staged**->**Unmodified**. Use the command ```git status``` in between the steps to monitor how the status of your file is changing.
+
 #### g. Exercise remotes
-- Create a new **GitHub** repository.
-- Add the url of the GitHub repository as a remote called `my_repository`.
-- Push your changes to GitHub: `git push my_repository master`
-- Check on GitHub that you have indeed pushed your changes.
-- Now add https://github.com/uu-python/participants.git as a new remote called `parent` and fetch any changes from it (you'll likely need to add `--allow-unrelated-histories` when pulling/merging).
+- Create a github project.
+- Add the url of the project as a remote called `my_repository`.
+- Push your changes to github: `git push my_repository master`
+- Check on github that you have indeed pushed your changes.
+- Now add https://github.com/uu-python/participants.git as a new remote called `parent` and fetch any changes from it.
 - Merge the changes from `parent/master` to your local master branch (there may be a conflict - if so, resolve it).
 - Push the new changes to your remote called `my_repository`.
+
 #### h. If you cannot get enough of git commands:
 checkout this tutorial/game: [https://github.com/Gazler/githug](https://github.com/Gazler/githug)
 
