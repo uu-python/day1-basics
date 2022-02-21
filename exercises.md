@@ -32,8 +32,12 @@ checkout this tutorial: [https://swcarpentry.github.io/shell-novice/](https://sw
 ## 2. Working with git
 In this part, we want you to get familiar with the most common *git* commands and learn how to use them. Some of the following tasks require you to have a *Github* account. So, if you don't already have one, you can create on here: [http://github.com/join](http://github.con/join). 
 
+<!---
 > In order for you to be able to ```push``` your changes to one of our remote repositories (e.g. [https://github.com/uu-python/participants](https://github.com/uu-python/participants)), we need to add you as a collaborator to our *Github* origanization. Therefore, come to the front and write you *Github* username on the whiteboard...
+-->
 
+Furthermore you will need to [upload your ssh public key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) or [generate an access token for authentication](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+The ssh key is used if you clone your repositories using ssh (e.g. `git clone git@github.com:uu-python/day1-basics.git`) and the access token is used if you clone your repository using https (e.g. `git clone https://github.com/uu-python/day1-basics.git`).
 Now, some git tasks for you
 
 #### a. Configure your local git environment
