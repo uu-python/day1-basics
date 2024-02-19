@@ -30,7 +30,7 @@ Create a python script that runs for a long time (e.g. using time.sleep python f
 checkout this tutorial: [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/)
 
 ## 2. Working with git
-In this part, we want you to get familiar with the most common *git* commands and learn how to use them. Some of the following tasks require you to have a *Github* account. So, if you don't already have one, you can create on here: [http://github.com/join](http://github.con/join). 
+In this part, we want you to get familiar with the most common *git* commands and learn how to use them. Some of the following tasks require you to have a *Github* account. So, if you don't already have one, you can create on here: [http://github.com/join](http://github.com/join). 
 
 <!---
 > In order for you to be able to ```push``` your changes to one of our remote repositories (e.g. [https://github.com/uu-python/participants](https://github.com/uu-python/participants)), we need to add you as a collaborator to our *Github* origanization. Therefore, come to the front and write you *Github* username on the whiteboard...
