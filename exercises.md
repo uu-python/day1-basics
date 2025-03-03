@@ -45,12 +45,12 @@ This becomes important as you start contributing to shared repositories (your co
 We'll follow the instructions on the *Setting up git*.
 First the name and email (obviously replacing them with your information):
 
-	git config —-global user.name "Your Name"
-	git config —-global user.email "your.email@your.domain"
+	git config --global user.name "Your Name"
+	git config --global user.email "your.email@your.domain"
 
 And finally select the editor (e.g. `notepad`, `vi`, `emacs`, `nano`, etc...) to be used when writing log messages:
 
-	git config —-global core.editor nano
+	git config --global core.editor nano
 
 #### b. On GitHub fork [https://github.com/uu-python/participants](https://github.com/uu-python/participants), and clone it.
 If you need help check [https://help.github.com/en/articles/fork-a-repo](https://help.github.com/en/articles/fork-a-repo).
